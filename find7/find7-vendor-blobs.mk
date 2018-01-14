@@ -1,4 +1,5 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2014-2016 The CyanogenMod Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -82,4 +83,19 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_default_video.so:system/vendor/lib/libchromatix_ov5648_default_video.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_preview.so:system/vendor/lib/libchromatix_ov5648_preview.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl.so:system/vendor/lib/libchromatix_ov5648_zsl.so \
-    vendor/oppo/find7/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl_fb.so:system/vendor/lib/libchromatix_ov5648_zsl_fb.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl_find7s.so:system/vendor/lib/libchromatix_ov5648_zsl_find7s.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera2_q3a_special.so:system/vendor/lib/libmmcamera2_q3a_special.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_ov5648.so:system/vendor/lib/libmmcamera_ov5648.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
+    vendor/oppo/find7/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libt2tmanager.so:system/vendor/lib/libt2tmanager.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so
